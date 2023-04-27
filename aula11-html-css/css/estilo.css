@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Montserrat&display=swap');
+
+body {
+    background-color: rgb(26, 26, 26)!important;
+    color: white!important;
+}
+
+.cabecario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px; 
+}
+
+.cabecario-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecario-menu-item {
+color: white!important;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400!important;
+font-size: 18px!important;
+
+}
+
+.dropdown-menu{
+    background-color:rgb(26, 26, 26)!important;
+}
+
+.dropdown-item {
+ color: white!important;
+ font-family: 'Montserrat', sans-serif;
+}
+
+h1  {
+font-family: 'Fira Code', monospace;
+padding-right: 300px;
+text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+
+.sessao-home-parte1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+
+.sessao-home {
+    padding: 30px;
+}
+
+.sessao-home-texto-part1 {
+    font-family: 'Roboto', sans-serif;
+    text-align:right;
+   
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    
+}
+
+.sessao-home-card {
+    background-color: rgb(32, 32, 32)!important;
+    border: none!important;
+    box-shadow: 0px 0px 10px #000000;
+}
+.card-text {
+    text-align: center;
+
+}
+
+.sessao-home-parte2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 15px;
+    padding-bottom: 40px;
+   
+}
+
+.sessao-home-texto-part2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.card-img-top {
+    padding-top: 10px;
+}
+
+.botao-top {
+    display: flex;
+    justify-content: right;
+}
+
+.botao {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    padding: 16px 20px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.icon {
+    font-size: 38px!important;
+}
+
+.botao-compra {
+    text-align: center;
+}

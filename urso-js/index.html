@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Urso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+       
+
+        h1 {
+            text-align: center;
+            font-family: 'VT323', monospace;
+        }
+
+        #divTempo {
+            font-family: 'VT323', monospace;
+            font-weight: bolder;
+            font-size: 30px;
+            text-align: center;
+            color: red;
+
+        }
+
+        #img-urso {
+            margin-top: 355px;
+           
+        }
+
+        .botao {
+            font-family: 'VT323', monospace;
+            background-color: rgb(24, 165, 207);
+            color: wheat;
+            width: 140px;
+            height: 50px;
+            font-size: 25px;
+            margin-top: 15px;
+        }
+
+        .div-urso {
+            height: 600px;
+            background-image: url(./img/bg1.jpg);
+            background-position: center;
+            background-size: auto;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>DESAFIO DO URSO</h1>
+    <div id="divTempo">3</div>
+    <!-- PRELOAD DAS IMAGENS -->
+    <img src="./img/parado.png" style="display: none;">
+    <img src="./img/direita.png" style="display: none;">
+    <img src="./img/esquerda.png" style="display: none;">
+
+    <!-- Urso -->
+<div class="div-urso">
+    <img src="./img/parado.png" id="img-urso" height="150px">
+    <br>
+     <button class="botao" id="botao" onclick="paraurso()">PARAR URSO </button>
+</div>
+
+   
+
+
+
+    <script src="./js/urso.js"></script>
+</body>
+
+</html>

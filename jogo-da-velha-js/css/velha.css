@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+    background-color: #9F8082;
+}
+
+main {
+    margin: 0 auto;
+    width: 750px;
+}
+
+#jogo {
+    display: grid;
+    grid-template-columns: 246px 246px 246px;
+}
+
+#jogo div {
+    height: 246.6px;
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.casasBorderR {
+    border-right: 8px solid rgba(0, 0, 0, 0.748);
+    border-radius: 16px;
+}
+
+.casasBorderL {
+    border-left: 8px solid rgba(0, 0, 0, 0.748);
+    border-radius: 16px;
+
+}
+
+.casasBorderB {
+    border-bottom: 8px solid rgba(0, 0, 0, 0.748);
+    border-radius: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: #cddfa0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.x {
+    color: #52050A;
+}
+
+.o {
+    color: #0B3948;
+}
+
+
+.vencedor {
+    background-color: #cddfa0e4 !important;
+
+}
+
+.btnJogar {
+    background-color: transparent;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 8px;
+    color: #cddfa0bd;
+    border: 2px solid rgba(0, 0, 0, 0.748);
+    
+}
+
+.btnJogar:hover {
+    background-color:rgba(0, 0, 0, 0.748);
+    
+}
+
+.placar {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.placarjogadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 40px;
+   
+}
+
+.xPlacar {
+    font-weight: bolder;
+    color: #52050A;
+}
+
+.oPlacar {
+    font-weight: bolder;
+    color: #0B3948;
+}
+
+#controles {
+    margin-bottom: 20px;
+}

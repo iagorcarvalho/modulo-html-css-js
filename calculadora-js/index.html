@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+
+
+    <main>
+        <header>
+            <input type="text" disabled id="resultado" />
+        </header>
+
+        
+        <section>
+            <button class="botao">%</button>
+            <button onclick="btnC()" class="botao">C</button>
+            <button onclick="btnCE()" class="botao">CE</button>
+            <button onclick="btnDel()" class="botao icone">
+                <span class="material-symbols-outlined  "> backspace</span>
+            </button>
+
+            <button type="button" class="botao"></button>
+            <button type="button" class="botao"></button>
+            <button type="button" class="botao"></button>
+            <button type="button" onclick="btnOp('/')" class="botao">÷</button>
+
+            <button type="button" onclick="insert('7')" class="botao">7</button>
+            <button type="button" onclick="insert('8')" class="botao">8</button>
+            <button type="button" onclick="insert('9')" class="botao">9</button>
+            <button type="button" onclick="btnOp('x')" class="botao">x</button>
+
+            <button type="button" onclick="insert('4')" class="botao">4</button>
+            <button type="button" onclick="insert('5')" class="botao">5</button>
+            <button type="button" onclick="insert('6')" class="botao">6</button>
+            <button type="button" onclick="btnOp('-')" class="botao">-</button>
+
+            <button type="button" onclick="insert('1')" class="botao">1</button>
+            <button type="button" onclick="insert('2')" class="botao">2</button>
+            <button type="button" onclick="insert('3')" class="botao">3</button>
+            <button type="button" onclick="btnOp('+')" class="botao">+</button>
+
+            <button type="button" onclick="btnPn()" class="botao icone">
+                <span class="material-symbols-outlined "> exposure </span>
+            </button>
+            <button type="button" onclick="insert('0')" class="botao">0</button>
+            <button type="button" onclick="insert(',')" class="botao">,</button>
+            <button type="button" onclick="btnIgual()" class="botao">=</button>
+        </section>
+
+        <section class="sessaohistorico">
+            <div  class="bobina">
+                <span onclick="btnDelh()"  class="material-symbols-outlined lixeira">
+                    delete_forever
+                    </span>
+                    <span id="historico"></span>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="./js/./js.js"></script>
+</body>
+
+</html>

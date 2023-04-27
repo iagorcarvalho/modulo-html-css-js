@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Montserrat&family=Nunito&family=Oxygen&family=Roboto&display=swap');
+
+.cabecario-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cabecario-itens {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: rgb(198, 198, 198) !important;
+    font-family: 'Oxygen', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400;
+    padding-left: 40px !important;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #415161 !important;
+}
+
+.sessao-primary {
+    background-image: url(../imagens/backg.jpg);
+    background-size: cover;
+    height: 400px;
+
+}
+
+h1 {
+    padding: 100px;
+    font-family: 'Oxygen', sans-serif !important;
+    color: white !important;
+    font-size: 37px !important;
+    text-align: center !important;
+}
+
+.sessao-secondary {
+    padding: 50px;
+    padding-bottom: 100px;
+
+}
+
+.sessao-secondary-text {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+
+}
+
+.sessao-secondary-paragrafo {
+    width: 50% !important;
+    padding: 0 70px !important;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 27px !important;
+}
+
+.rodape {
+    width: 100%;
+    padding: 50px 0 50px 60px;
+    background-color: #69696935;
+
+}
+
+.rodape-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-menu-titulo {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    color: #4d4d4d;
+    font-weight: bolder;
+}
+
+.rodape-menu-subtitulo {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: #757575;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.rodape-menu-buscar {
+    width: 50% !important;
+}
+
+.sessao-galeria {
+    display: flex;
+    justify-content: center!important;
+    flex-direction: column;
+    border-top: 0.5px solid rgba(128, 128, 128, 0.229);
+    padding-bottom: 40px;
+}
+
+.sessao-galeria-titulo {
+    color: rgb(149, 149, 149) !important;
+    font-size: 20px!important;
+    text-transform: uppercase;
+    text-align:center!important;
+    padding: 20px 0 10px 0!important;
+}
+
+.sessao-galeria-imagem {
+    height: 500px;
+    width: auto;
+}
+
+#carouselExampleFade {
+    margin: 0 auto !important;
+}
+
+#formulario {
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px;
+    border-top: 0.5px solid rgba(128, 128, 128, 0.229);
+}
+
+#cadastro {
+    text-align: center;
+}
+
+
+
+

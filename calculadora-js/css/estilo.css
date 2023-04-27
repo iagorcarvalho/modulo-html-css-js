@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+
+body {
+    background-color: rgb(104, 163, 214);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+main {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.909);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+  
+}
+
+#resultado {
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    background-color: rgb(31, 31, 31);
+    color: rgba(104, 163, 214, 0.874);
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+    font-family: 'VT323', monospace;
+}
+
+.botao:hover {
+    background-color:rgba(104, 163, 214, 0.874);
+}
+
+
+.icone {
+    font-size: 40px;
+}
+
+
+.bobina {
+    width: 150px;
+    min-height: 150px;
+    padding: 10px;
+    font-family: 'VT323', monospace;
+    margin: 0 auto;
+    background-color: rgb(31, 31, 31);
+    color: rgb(104, 163, 214);
+    font-size: 20px;
+    position: relative;
+}
+
+.sessaohistorico {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lixeira {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: default;
+    
+}
+
+.lixeira:hover{
+    transform: scale(1.1);
+}
